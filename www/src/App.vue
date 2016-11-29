@@ -1,12 +1,14 @@
 <template>
-    <hello></hello>
+	<page1></page1>
 </template>
 
 <script>
 	import Hello from './components/Hello.vue'
+	import Page1 from './components/Page1.vue'
 
 	export default {
 		components: {
+			Page1,
 			Hello
 		}
 	}
